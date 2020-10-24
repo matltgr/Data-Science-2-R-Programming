@@ -16,7 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## cacheSolve enables to retrieve 
+## cacheSolve enables the retrieval of the inverse in the cache or its calculation if it does not exist
 
 cacheSolve <- function(x, ...) {
         ## Checks for cache data
